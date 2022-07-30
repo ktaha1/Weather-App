@@ -6,6 +6,7 @@ import { WeatherService } from './services/weather.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  providers: [WeatherService]
 })
 export class AppComponent implements OnInit {
   weatherData?: WeatherData;
